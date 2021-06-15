@@ -1,6 +1,6 @@
 <?php
 	// create cnnection
-	$conn = mysqli_connect('localhost','root','','nimetdb');
+	$conn = mysqli_connect('localhost','root','','saojih');
 
 	// Check Connection
 	if(mysqli_connect_errno()){

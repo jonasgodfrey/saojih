@@ -90,11 +90,11 @@ $message = "";
                   </div>
                 <div class="login-form">
                     <form method="post" action="index.php">
-                        <div class="form-group">
+                        <div class="form-group center">
                             <label>Username</label>
                             <input type="text" name="username" class="form-control" placeholder="username" required>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group center">
                             <label>Password</label>
                             <input type="password" name="password" class="form-control" placeholder="Password" required>
                         </div>
