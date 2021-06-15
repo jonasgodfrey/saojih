@@ -32,7 +32,7 @@ $message = "";
           $user_status = $row['status'];
 
           if($user_status == 0){
-          $update_sql = "UPDATE `users` SET `status`=1 WHERE user_id = '$user_id'";
+          $update_sql = "UPDATE `users` SET `status`=0 WHERE user_id = '$user_id'";
 
           $conn->query($update_sql);          
             //echo "You are loggged in";
